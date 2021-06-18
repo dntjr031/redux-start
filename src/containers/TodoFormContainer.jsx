@@ -1,7 +1,7 @@
 import { useDispatch } from 'react-redux';
-import { addTodo } from '../redux/actions';
 import TodoForm from '../components/TodoForm';
 import { useCallback } from 'react';
+import { addTodo } from '../redux/modules/todos';
 
 function TodoFormContainer() {
   const dispatch = useDispatch();
